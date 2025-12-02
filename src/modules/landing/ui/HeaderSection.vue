@@ -3,7 +3,8 @@
     <div class="container">
       <div class="logo">
         <a href="#" @click.prevent="scrollToSection('hero')">
-          Fleemo<span class="text-gradient">Software</span>
+          <img :src="fleemoLogo" alt="FleemoSoftware Logo" class="logo-img" />
+          <span>Fleemo<span class="text-gradient">Software</span></span>
         </a>
       </div>
       
@@ -26,6 +27,7 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
+import fleemoLogo from '@/assets/fleemo.svg'
 
 const isScrolled = ref(false)
 const isMenuOpen = ref(false)
@@ -97,6 +99,14 @@ onUnmounted(() => {
   font-weight: 800;
   color: var(--color-heading);
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 32px;
+  width: auto;
 }
 
 .nav-menu {

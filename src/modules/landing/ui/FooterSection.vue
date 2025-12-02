@@ -4,7 +4,7 @@
       <div class="footer-top">
         <div class="footer-brand">
           <div class="footer-logo">
-            <!-- Logo placeholder -->
+            <img :src="fleemoLogo" alt="FleemoSoftware Logo" class="logo-img" />
             <span class="logo-text">Fleemo<span class="text-gradient">Software</span></span>
           </div>
           <p class="brand-desc">
@@ -16,18 +16,18 @@
           <div class="link-group">
             <h4>Menú</h4>
             <ul>
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Servicios</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Contacto</a></li>
+              <li><a href="#hero">Inicio</a></li>
+              <li><a href="#value">Valor</a></li>
+              <li><a href="#services">Servicios</a></li>
+              <li><a href="#process">Proceso</a></li>
             </ul>
           </div>
           
           <div class="link-group">
             <h4>Contacto</h4>
             <ul>
-              <li><a href="mailto:contacto@fleemosoftware.com">contacto@fleemosoftware.com</a></li>
-              <li><a href="#">WhatsApp: +123 456 7890</a></li>
+              <li><a href="mailto:fleemocontacto@gmail.com">fleemocontacto@gmail.com</a></li>
+              <li><a href="#">WhatsApp: +51932230390</a></li>
               <li class="hours">Lun - Vie: 9:00 - 18:00</li>
             </ul>
           </div>
@@ -48,6 +48,11 @@
     </div>
   </footer>
 </template>
+
+<script setup>
+import fleemoLogo from '@/assets/fleemo.svg'
+
+</script>
 
 <style scoped>
 .footer-section {
@@ -84,8 +89,15 @@
   font-size: 1.5rem;
   font-weight: 800;
   margin-bottom: 20px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-family: var(--font-heading);
+}
+
+.logo-img {
+  height: 32px;
+  width: auto;
 }
 
 .brand-desc {
