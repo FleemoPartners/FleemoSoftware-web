@@ -72,6 +72,10 @@
 .services-section {
   padding: var(--section-gap) 20px;
   position: relative;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-color: rgba(2, 6, 23, 0.5);
 }
 
 .container {

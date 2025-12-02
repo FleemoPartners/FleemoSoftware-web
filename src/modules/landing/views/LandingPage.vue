@@ -2,7 +2,7 @@
   <div class="landing-page">
     <HeaderSection />
     <HeroSection id="hero" />
-    <ValueProposition />
+    <ValueProposition id="value"/>
     <ServicesSection id="services" />
     <ProcessSection id="process" />
     <TestimonialsSection id="testimonials" />

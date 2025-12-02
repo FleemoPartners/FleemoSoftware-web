@@ -1,4 +1,4 @@
-<template>
+<template class="value">
   <section class="value-prop-section">
     <div class="container">
       <div class="section-header">
@@ -61,9 +61,12 @@ const features = [
 </script>
 
 <style scoped>
+
 .value-prop-section {
   padding: var(--section-gap) 20px;
   position: relative;
+  background: radial-gradient(circle at 0% 0%, rgba(56, 189, 248, 0.05) 0%, transparent 50%),
+              radial-gradient(circle at 100% 100%, rgba(124, 58, 237, 0.05) 0%, transparent 50%);
 }
 
 .container {
@@ -117,7 +120,7 @@ const features = [
 
 .feature-card:hover {
   border-color: rgba(56, 189, 248, 0.3);
-  transform: translateY(-5px);
+  transform: translateY(-5px) scale(1.1) rotate(3deg);
   box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.5);
 }
 

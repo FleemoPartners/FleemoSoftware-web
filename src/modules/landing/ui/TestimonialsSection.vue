@@ -56,6 +56,8 @@ const testimonials = [
 .testimonials-section {
   padding: var(--section-gap) 20px;
   position: relative;
+  background: linear-gradient(to right, rgba(2, 6, 23, 0.8), rgba(15, 23, 42, 0.8)),
+              radial-gradient(circle at 0% 50%, rgba(56, 189, 248, 0.1) 0%, transparent 50%);
 }
 
 .container {

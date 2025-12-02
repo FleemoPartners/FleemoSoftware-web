@@ -44,6 +44,7 @@ const steps = [
 .process-section {
   padding: var(--section-gap) 20px;
   position: relative;
+  background: radial-gradient(ellipse at center, rgba(56, 189, 248, 0.08) 0%, transparent 70%);
 }
 
 .container {

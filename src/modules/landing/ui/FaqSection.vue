@@ -58,6 +58,9 @@ const faqs = [
 .faq-section {
   padding: var(--section-gap) 20px;
   position: relative;
+  background-color: rgba(2, 6, 23, 0.4);
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 30px 30px;
 }
 
 .container {
