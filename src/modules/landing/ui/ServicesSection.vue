@@ -12,7 +12,7 @@
           <div class="plan-header">
             <h3 class="plan-name">Básico</h3>
             <p class="plan-desc">Ideal para validar ideas o productos.</p>
-            <div class="plan-price-placeholder">Consultar Precio</div>
+            <div class="plan-price-placeholder">S/.1000</div>
           </div>
           
           <ul class="plan-features">
@@ -31,7 +31,7 @@
           <div class="plan-header">
             <h3 class="plan-name">Profesional</h3>
             <p class="plan-desc">Para negocios que buscan crecer.</p>
-            <div class="plan-price-placeholder">Consultar Precio</div>
+            <div class="plan-price-placeholder">S/.2000</div>
           </div>
           
           <ul class="plan-features">
@@ -50,7 +50,7 @@
           <div class="plan-header">
             <h3 class="plan-name">Empresa</h3>
             <p class="plan-desc">Solución completa y personalizada.</p>
-            <div class="plan-price-placeholder">Consultar Precio</div>
+            <div class="plan-price-placeholder">S/.3000</div>
           </div>
           
           <ul class="plan-features">
